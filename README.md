@@ -11,3 +11,10 @@ http://www.cvl.iis.u-tokyo.ac.jp/index.php?id=mr#Opticalflow
 2. CUDA 8.0 (Including Samples for headers)
 3. Visual Studio 2015
 
+## License
+This project is licensed under the MIT license
+
+## Author
+Menandro Roxas, 3D Vision Laboratory (Oishi Laboratory), Institute of Industrial Science, The University of Tokyo
+
+
