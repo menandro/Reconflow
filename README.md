@@ -16,21 +16,21 @@ The solution consists of two projects - reconflow and test_reconflow. reconflow 
 
 There is a lib_link.h header (for both project) that links the necessary libraries. Modify the directories:
 
-...
+```
 #define LIB_PATH "D:/dev/lib64/"
 #define CV_LIB_PATH "D:/dev/lib64/"
 #define CUDA_LIB_PATH "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v8.0/lib/x64/"
-...
+```
 
 to point to the location of OpenCV (CV_LIB_PATH) and CUDA (CUDA_LIB_PATH) .lib files.
 
-At the same time, in the project properties, modify the VC++ directories (Executables, Includes, and Libraries) to point to the location of the OpenCV and CUDA builds, too.
+At the same time, modify the Project Properties -> VC++ Directories -> (Executables, Includes, and Libraries) to point to the location of the OpenCV and CUDA builds, too.
 
-...
+```
 Executable: D:/dev/bin
 Includes: D:/dev/include
 Libraries: D:/dev/lib64
-...
+```
 
 ### To do
 *CMake
